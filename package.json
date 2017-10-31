@@ -1,0 +1,30 @@
+{
+  "name": "nodejstest",
+  "version": "0.0.1",
+  "description": "Node.js module to do some thing",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.83.0",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lijingying91/npmDemo.git"
+  },
+  "keywords": [
+    "['myweb'",
+    "'nodejs'",
+    "'nodejs",
+    "framework']"
+  ],
+  "author": "Joy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lijingying91/npmDemo/issues"
+  },
+  "homepage": "https://github.com/lijingying91/npmDemo#readme"
+}

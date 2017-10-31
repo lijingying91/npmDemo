@@ -1,0 +1,8 @@
+<script src="https://cdn.bootcss.com/socket.io/2.0.3/socket.io.js"></script>
+<script type="text/javascript">
+	var socket = io.connect('http://localhost');
+	socket.on('news', function(data){
+		console.log(data);
+		socket.emit('my other event', { my: 'data' });
+	})
+</script>
